@@ -1,5 +1,3 @@
-var nilaiAwal = 1;
-while (nilaiAwal <= 5) {
-  console.log("Halo dunia" + nilaiAwal);
-  nilaiAwal++;
+for (var x = 1; x <= 5; x++) {
+  console.log("x : " + x);
 }
