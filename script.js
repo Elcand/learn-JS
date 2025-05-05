@@ -11,4 +11,7 @@ var arr = ["stroberry", "mangga", "apel", "kates", "gedang"];
 // arr.unshift("ikel");
 // arr.shift();
 
+// splice -> (indexAwal, mauDihapusBerapa, elemenBaru1, elemenBaru2)
+arr.splice(2, 0, "edi", "piki");
+
 console.log(arr.join(" . "));
