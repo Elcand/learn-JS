@@ -1,5 +1,2 @@
-var nilaiAwal = 1;
-while (nilaiAwal <= 5) {
-  console.log("Halo dunia" + nilaiAwal);
-  nilaiAwal++;
-}
+var arr = ["stroberry", "mangga", "apel", "kates", "gedang"];
+console.log(arr);
