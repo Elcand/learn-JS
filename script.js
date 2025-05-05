@@ -22,12 +22,10 @@
 
 var angka = [1, 2, 4, 3, 5, 6, 8, 9, 7, 10];
 
-
 // foreach
 // angka.forEach(function (e) {
 //   console.log(e);
 // });
-
 
 // map
 // var angka2 = angka.map(function (e) {
@@ -35,3 +33,11 @@ var angka = [1, 2, 4, 3, 5, 6, 8, 9, 7, 10];
 // });
 
 // console.log(angka2);
+
+
+// sort -> mengurutkan
+console.log(angka.join(" - "));
+angka.sort(function (a, b) {
+  return a - b;
+});
+console.log(angka.join(" - "));
