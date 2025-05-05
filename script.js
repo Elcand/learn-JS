@@ -20,7 +20,7 @@
 // console.log(arr.join(" . "));
 // console.log(arr2.join(" --- "));
 
-var angka = [1, 2, 4, 3, 5, 6, 8, 9, 7, 10];
+// var angka = [1, 2, 4, 3, 5, 6, 8, 9, 7, 10];
 
 // foreach
 // angka.forEach(function (e) {
@@ -34,10 +34,16 @@ var angka = [1, 2, 4, 3, 5, 6, 8, 9, 7, 10];
 
 // console.log(angka2);
 
-
 // sort -> mengurutkan
-console.log(angka.join(" - "));
-angka.sort(function (a, b) {
-  return a - b;
+// console.log(angka.join(" - "));
+// angka.sort(function (a, b) {
+//   return a - b;
+// });
+// console.log(angka.join(" - "));
+
+// filter -> mancari nilai dalam array, dan mengembalikan dlm bentuk array && find -> hanya bisa 1 nilai
+var angka = [1, 8, 5, 4, 3, 7, 6, 2, 9];
+var angka2 = angka.filter(function (x) {
+  return x == 1;
 });
-console.log(angka.join(" - "));
+console.log(angka2)
