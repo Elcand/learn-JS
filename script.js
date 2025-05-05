@@ -43,7 +43,7 @@
 
 // filter -> mancari nilai dalam array, dan mengembalikan dlm bentuk array && find -> hanya bisa 1 nilai
 var angka = [1, 8, 5, 4, 3, 7, 6, 2, 9];
-var angka2 = angka.filter(function (x) {
-  return x == 1;
+var angka2 = angka.find(function (x) {
+  return x > 2;
 });
 console.log(angka2)
