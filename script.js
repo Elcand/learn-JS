@@ -1,4 +1,4 @@
-var arr = ["stroberry", "mangga", "apel", "kates", "gedang"];
+// var arr = ["stroberry", "mangga", "apel", "kates", "gedang"];
 
 // push -> menambahakan array
 // arr.push("kelapa", "melon");
@@ -15,7 +15,13 @@ var arr = ["stroberry", "mangga", "apel", "kates", "gedang"];
 // arr.splice(2, 0, "edi", "piki");
 
 // slice(awal, akhir)
-var arr2 = arr.slice(1, 4);
+// var arr2 = arr.slice(1, 4);
 
-console.log(arr.join(" . "));
-console.log(arr2.join(" --- "));
+// console.log(arr.join(" . "));
+// console.log(arr2.join(" --- "));
+
+var angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+angka.forEach(function (e) {
+  console.log(e);
+});
