@@ -20,8 +20,18 @@
 // console.log(arr.join(" . "));
 // console.log(arr2.join(" --- "));
 
-var angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var angka = [1, 2, 4, 3, 5, 6, 8, 9, 7, 10];
 
-angka.forEach(function (e) {
-  console.log(e);
-});
+
+// foreach
+// angka.forEach(function (e) {
+//   console.log(e);
+// });
+
+
+// map
+// var angka2 = angka.map(function (e) {
+//   return e * 2;
+// });
+
+// console.log(angka2);
