@@ -7,4 +7,8 @@ var arr = ["stroberry", "mangga", "apel", "kates", "gedang"];
 // arr.pop();
 // arr.pop();
 
+// unshift ->menambahkan elemen diawal array & shift -> menghilangkan elemen awal
+// arr.unshift("ikel");
+// arr.shift();
+
 console.log(arr.join(" . "));
