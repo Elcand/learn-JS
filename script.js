@@ -12,6 +12,10 @@ var arr = ["stroberry", "mangga", "apel", "kates", "gedang"];
 // arr.shift();
 
 // splice -> (indexAwal, mauDihapusBerapa, elemenBaru1, elemenBaru2)
-arr.splice(2, 0, "edi", "piki");
+// arr.splice(2, 0, "edi", "piki");
+
+// slice(awal, akhir)
+var arr2 = arr.slice(1, 4);
 
 console.log(arr.join(" . "));
+console.log(arr2.join(" --- "));
