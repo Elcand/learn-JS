@@ -1,5 +1,16 @@
-var nilaiAwal = 1;
-while (nilaiAwal <= 5) {
-  console.log("Halo dunia" + nilaiAwal);
-  nilaiAwal++;
+function buatObjectMahasiswa(nama, nrp, email, jurusan) {
+  var mhs = {};
+  mhs.nama = nama;
+  mhs.nrp = nrp;
+  mhs.email = email;
+  mhs.jurusan = jurusan;
+  return mhs;
 }
+
+var mhs1 = buatObjectMahasiswa("mikhael", "220308", "mikhael@gmail.com", "IT");
+var mhs2 = buatObjectMahasiswa(
+  "candra",
+  "032208",
+  "cand@gmail.com",
+  "Keuangan"
+);
