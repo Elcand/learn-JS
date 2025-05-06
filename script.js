@@ -14,3 +14,13 @@ var mhs2 = buatObjectMahasiswa(
   "cand@gmail.com",
   "Keuangan"
 );
+
+// constractor
+function Mahasiswa(nama, nrp, email, jurusan) {
+  this.nama = nama;
+  this.nrp = nrp;
+  this.email = email;
+  this.jurusan = jurusan;
+}
+
+var mhs3 = new Mahasiswa("ikel", "56789876", "ikel123@gmail.com", "Animasi");
