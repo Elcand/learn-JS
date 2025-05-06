@@ -31,3 +31,11 @@
 // function halo() {
 //   console.log("halo");
 // }
+// halo();
+
+// object literal
+// var obj = {};
+// obj.halo = function () {
+//   console.log("halo");
+// };
+// obj.halo();
